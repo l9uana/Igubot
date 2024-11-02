@@ -21,7 +21,7 @@ intents.members = True
 file_path = "C:/Users/user/Desktop/igubot_custom_responses.txt" # 답변 데이터 파일
 class iguBot(commands.Bot):
     def __init__(self):
-        super().__init__(command_prefix="$", intents=intents)
+        super().__init__(command_prefix="$", intents=intents) # 원하는 프리픽스로 변경하세요 ('$', '!' 등등)
         self.edit_message = None
 
     async def send_performance_update(self):
