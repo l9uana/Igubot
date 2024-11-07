@@ -13,7 +13,7 @@ verification_channel_id = 6974892 # 인증 태널 ID
 system_message_channel_id = 6974892 # 시스템 메세지 채널 ID
 performance_channel_id = 6974892 # 성능 상태 채널 ID
 
-theme_color = discord.Color.orange() # 테마 색
+theme_color = 0xEF7C1C # 테마 색
 
 intents = discord.Intents.all()
 intents.members = True
